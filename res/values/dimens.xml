@@ -1,0 +1,4 @@
+<resources>
+	<dimen name="titlebar_size">40dp</dimen>
+	<dimen name="tabbar_size">50dp</dimen>
+</resources>

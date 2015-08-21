@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+	<include layout="@layout/layout_line_horizontal" />
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:background="#ebebeb"
+		android:orientation="horizontal"
+		android:paddingBottom="8dp"
+		android:paddingTop="8dp" >
+		<TextView
+			android:id="@+id/home_button"
+			android:layout_width="1dp"
+			android:layout_height="@dimen/tabbar_size"
+			android:layout_weight="1"
+			android:drawablePadding="5dp"
+			android:drawableTop="@drawable/home_red"
+			android:gravity="center"
+			android:text="@string/home_button"
+			android:textColor="#969696" />
+		<TextView
+			android:id="@+id/favorite_button"
+			android:layout_width="1dp"
+			android:layout_height="@dimen/tabbar_size"
+			android:layout_weight="1"
+			android:drawablePadding="5dp"
+			android:drawableTop="@drawable/favorite_grey"
+			android:gravity="center"
+			android:text="@string/favorite_button"
+			android:textColor="#969696" />
+		<TextView
+			android:id="@+id/search_button"
+			android:layout_width="1dp"
+			android:layout_height="@dimen/tabbar_size"
+			android:layout_weight="1"
+			android:drawablePadding="5dp"
+			android:drawableTop="@drawable/search_grey"
+			android:gravity="center"
+			android:text="@string/search_button"
+			android:textColor="#969696" />
+		<TextView
+			android:id="@+id/feedback_button"
+			android:layout_width="1dp"
+			android:layout_height="@dimen/tabbar_size"
+			android:layout_weight="1"
+			android:drawablePadding="5dp"
+			android:drawableTop="@drawable/feedback_grey"
+			android:gravity="center"
+			android:text="@string/feedback_button"
+			android:textColor="#969696" />
+		<TextView
+			android:id="@+id/my_button"
+			android:layout_width="1dp"
+			android:layout_height="@dimen/tabbar_size"
+			android:layout_weight="1"
+			android:drawablePadding="5dp"
+			android:drawableTop="@drawable/my_grey"
+			android:gravity="center"
+			android:text="@string/my_button"
+			android:textColor="#969696" />
+	</LinearLayout>
+</LinearLayout>
